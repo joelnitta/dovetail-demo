@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-05-15 02:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/README.md:1
+#, no-wrap
+msgid "r-intermediate-penguins-dt"
+msgstr ""
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/README.md:4
+msgid ""
+"This is the repository for the [Carpentries demo lesson](https://carpentries."
+"github.io/workbench-template-rmd/), modified to demonstrate usage of the "
+"[dovetail R package](https://github.com/joelnitta/dovetail) for translating "
+"Carpentries lessons."
+msgstr ""
+
+#. type: Title ##
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/README.md:5
+#, no-wrap
+msgid "About [dovetail](https://github.com/joelnitta/dovetail)"
+msgstr ""
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/README.md:8
+msgid "`dovetail` is not yet on CRAN, and needs to be installed from GitHub:"
+msgstr ""
+
+#. type: Fenced code block (r)
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/README.md:9
+#, no-wrap
+msgid "devtools::install_github(\"joelnitta/dovetail\")\n"
+msgstr ""
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/README.md:15
+msgid ""
+"Also, note that `dovetail` relies on external software ([mdpo](https://"
+"github.com/mquinson/po4a)) bundled in a [Docker image](https://hub.docker."
+"com/r/joelnitta/po4a), and therefore requires Docker to be installed and "
+"running."
+msgstr ""
+
+#. type: Title ##
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/README.md:16
+#, no-wrap
+msgid "Translating a lesson"
+msgstr ""
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/README.md:19
+msgid ""
+"First, create the lesson by [copying the lesson template](https://"
+"carpentries.github.io/sandpaper-docs/introduction.html#super-quickstart-copy-"
+"a-template-from-github)."
+msgstr ""
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/README.md:21
+msgid ""
+"This example uses the [R Markdown Lesson Template](https://github.com/"
+"carpentries/workbench-template-rmd/generate)."
+msgstr ""
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/README.md:23
+msgid ""
+"Once you have done that, start R with the lesson folder as your working "
+"directory."
+msgstr ""
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/README.md:25
+msgid ""
+"The code below demonstrates translation into Japanese (language code \"ja\"):"
+msgstr ""
+
+#. type: Fenced code block (r)
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/README.md:26
+#, no-wrap
+msgid ""
+"library(dovetail)\n"
+"\n"
+"# 1. Copy (untranslated) files needed for rendering lesson to locale/{lang}/\n"
+"# This will overwrite any translated files currently there.\n"
+"create_locale(\"ja\")\n"
+"\n"
+"# 2. Create PO files, on per (R)markdown document in `./po/{lang}/`\n"
+"# (the PO files are already included in this demo repo, but it's OK to run this again)\n"
+"create_po_for_locale(\"ja\")\n"
+"\n"
+"# 3. Edit PO files (fill in translated strings)\n"
+"\n"
+"# 4. Translate all (R)md files to `./locale/{lang}/`\n"
+"translate_md_for_locale(\"ja\")\n"
+"\n"
+"# 5. Build translated lesson\n"
+"sandpaper::build_lesson(\"locale/ja/\")\n"
+msgstr ""
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/README.md:46
+msgid ""
+"Note that dovetail will still \"translate\" markdown files without any msgtr "
+"strings in the PO file. In other words, untranslated strings will show up in "
+"the output markdown file in their original language."
+msgstr ""

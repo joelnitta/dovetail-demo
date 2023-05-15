@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-05-15 02:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/learners/setup.md:1
+#, no-wrap
+msgid "Setup"
+msgstr ""
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/learners/setup.md:7
+#, markdown-text
+msgid "FIXME: Setup instructions live in this document. Please specify the tools and the data sets the Learner needs to have installed."
+msgstr ""
+
+#. type: Title ##
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/learners/setup.md:8
+#, markdown-text, no-wrap
+msgid "Data Sets"
+msgstr ""
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/learners/setup.md:16
+#, markdown-text, no-wrap
+msgid ""
+"<!--\n"
+"FIXME: place any data you want learners to use in `episodes/data` and then use\n"
+"       a relative link ( [data zip file](data/lesson-data.zip) ) to provide a\n"
+"       link to it, replacing the example.com link.\n"
+"-->\n"
+"Download the [data zip file](https://example.com/FIXME) and unzip it to your Desktop\n"
+msgstr ""
+
+#. type: Title ##
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/learners/setup.md:17
+#, markdown-text, no-wrap
+msgid "Software Setup"
+msgstr ""
+
+#. type: Fenced div block (discussion)
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/learners/setup.md:19
+#, no-wrap
+msgid ""
+"\n"
+"### Details\n"
+"\n"
+"Setup for different systems can be presented in dropdown menus via a `solution`\n"
+"tag. They will join to this discussion block, so you can give a general overview\n"
+"of the software used in this lesson here and fill out the individual operating\n"
+"systems (and potentially add more, e.g. online setup) in the solutions blocks.\n"
+"\n"
+msgstr ""
+
+#. type: Fenced div block (solution)
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/learners/setup.md:30
+#, no-wrap
+msgid ""
+"\n"
+"### Windows\n"
+"\n"
+"Use PuTTY\n"
+"\n"
+msgstr ""
+
+#. type: Fenced div block (solution)
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/learners/setup.md:38
+#, no-wrap
+msgid ""
+"\n"
+"### MacOS\n"
+"\n"
+"Use Terminal.app\n"
+"\n"
+msgstr ""
+
+#. type: Fenced div block (solution)
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/learners/setup.md:47
+#, no-wrap
+msgid ""
+"\n"
+"### Linux\n"
+"\n"
+"Use Terminal\n"
+"\n"
+msgstr ""

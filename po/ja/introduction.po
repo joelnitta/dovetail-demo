@@ -1,0 +1,282 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-05-15 02:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: exercises
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:1
+#, no-wrap
+msgid "2"
+msgstr ""
+
+#. type: YAML Front Matter: teaching
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:1
+#, no-wrap
+msgid "10"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:1
+#, no-wrap
+msgid "Using RMarkdown"
+msgstr "RMarkdown の使い方について"
+
+#. type: Fenced div block (questions )
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:7
+#, no-wrap
+msgid ""
+"\n"
+"- How do you write a lesson using R Markdown and `{sandpaper}`?\n"
+"\n"
+msgstr ""
+"\n"
+"- R Markdown と`{sandpaper}` によるレッスンの書き方は何でしょうか？"
+"\n"
+
+#. type: Bullet: '
+#. type: - '
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:13
+#, markdown-text
+msgid "Explain how to use markdown with the new lesson template"
+msgstr "新しいレッスン型によるマークダウンの使い方を説明しましょう"
+
+#. type: Fenced div block (objectives)
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:13
+#, no-wrap
+msgid ""
+"- Demonstrate how to include pieces of code, figures, and nested challenge blocks\n"
+"\n"
+msgstr ""
+"- コードの塊、図表、それからチャッレンジブロックの書き方を説明しましょう\n"
+"\n"
+
+#. type: Title ##
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:20
+#, markdown-text, no-wrap
+msgid "Introduction"
+msgstr "はじめに"
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:27
+#, markdown-text
+msgid "This is a lesson created via The Carpentries Workbench. It is written in [Pandoc-flavored Markdown](https://pandoc.org/MANUAL.txt) for static files and [R Markdown][r-markdown] for dynamic files that can render code into output.  Please refer to the [Introduction to The Carpentries Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation."
+msgstr "このサイトはThe Carpentries Workbench によって作られたレッスンです。コードを使わないテキストファイルはパンドックのマークダウンによって作成され、コードによってアウトプットを出力するファイルはRマークダウンによって作成されています。詳しい使い方については[Introduction to The Carpentries Workbench][carpentries-workbench]を参照してください。"
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:30
+#, markdown-text
+msgid "What you need to know is that there are three sections required for a valid Carpentries lesson template:"
+msgstr "カーペントリーズのレッスンは三つのセクションに分かれています："
+
+#. type: Bullet: ' 1. '
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:37
+#, markdown-text
+msgid "`questions` are displayed at the beginning of the episode to prime the learner for the content."
+msgstr "最初に参加者がこれから学ぶことに慣れるために`questions`（質問）があります。"
+
+#. type: Bullet: ' 2. '
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:37
+#, markdown-text
+msgid "`objectives` are the learning objectives for an episode displayed with the questions."
+msgstr "`objectives`（目的）とは、そのエピソードにおいて学んで欲しいことの目的で、質問と並べて表示されます。"
+
+#. type: Bullet: ' 3. '
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:37
+#, markdown-text
+msgid "`keypoints` are displayed at the end of the episode to reinforce the objectives."
+msgstr "`keypoints`（キーポイント）はエピソードの最後に目的を強調するために表示されます。"
+
+#. type: Fenced div block (instructor)
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:38
+#, no-wrap
+msgid ""
+"\n"
+"Inline instructor notes can help inform instructors of timing challenges\n"
+"associated with the lessons. They appear in the \"Instructor View\"\n"
+"\n"
+msgstr ""
+"\n"
+"インストラクターへのメモはインストラクターにタイミングなどによるよく出るトラブルを教えてくれます。\n"
+"\"Instructor View\"の表示を選択すると見えます。\n"
+"\n"
+
+#. type: Fenced div block (challenge )
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:45
+#, no-wrap
+msgid ""
+"\n"
+"## Challenge 1: Can you do it?\n"
+"\n"
+"What is the output of this command?\n"
+"\n"
+"```r\n"
+"paste(\"This\", \"new\", \"lesson\", \"looks\", \"good\")\n"
+"```\n"
+"\n"
+":::::::::::::::::::::::: solution \n"
+"\n"
+"## Output\n"
+" \n"
+"```output\n"
+"[1] \"This new lesson looks good\"\n"
+"```\n"
+"\n"
+":::::::::::::::::::::::::::::::::\n"
+"\n"
+"\n"
+"## Challenge 2: how do you nest solutions within challenge blocks?\n"
+"\n"
+":::::::::::::::::::::::: solution \n"
+"\n"
+"You can add a line with at least three colons and a `solution` tag.\n"
+"\n"
+":::::::::::::::::::::::::::::::::\n"
+msgstr ""
+"\n"
+"## チャレンジの１：出来ますか？\n"
+"\n"
+"このコマンドの出力は何でしょうか？\n"
+"\n"
+"```r\n"
+"paste(\"This\", \"new\", \"lesson\", \"looks\", \"good\")\n"
+"```\n"
+"\n"
+":::::::::::::::::::::::: solution \n"
+"\n"
+"## 出力\n"
+" \n"
+"```output\n"
+"[1] \"This new lesson looks good\"\n"
+"```\n"
+"\n"
+":::::::::::::::::::::::::::::::::\n"
+"\n"
+"\n"
+"## チャレンジの２：答えをどうやってチャレンジブロックの中に入れられますか？\n"
+"\n"
+":::::::::::::::::::::::: solution \n"
+"\n"
+"三つのコロン以上から始まって、「solution」で終わる行を入れば良い。\n"
+"\n"
+":::::::::::::::::::::::::::::::::\n"
+
+#. type: Title ##
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:75
+#, markdown-text, no-wrap
+msgid "Figures"
+msgstr "図表"
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:78
+#, markdown-text
+msgid "You can also include figures generated from R Markdown:"
+msgstr "Rマークダウンによる図表を入れることも出来ます。"
+
+#. type: Fenced code block ({r pyramid, fig.alt = "pie chart illusion of a pyramid", fig.cap = "Sun arise each and every morning"})
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:79
+#, no-wrap
+msgid ""
+"pie(\n"
+"  c(Sky = 78, \"Sunny side of pyramid\" = 17, \"Shady side of pyramid\" = 5), \n"
+"  init.angle = 315, \n"
+"  col = c(\"deepskyblue\", \"yellow\", \"yellow3\"), \n"
+"  border = FALSE\n"
+")\n"
+msgstr ""
+"#| label: pyramid\n"
+"#| fig.alt: ピラミッドの錯覚\n"
+"#| fig.cap: 毎朝お日様が登ります\n"
+"pie(\n"
+"  c(Sky = 78, \"ピラミッドの明るい方\" = 17, \"ピラミッドの影に入っている方\" = 5), \n"
+"  init.angle = 315, \n"
+"  col = c(\"deepskyblue\", \"yellow\", \"yellow3\"), \n"
+"  border = FALSE\n"
+")\n"
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:89
+#, markdown-text
+msgid "Or you can use standard markdown for static figures with the following syntax:"
+msgstr ""
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:92
+#, markdown-text
+msgid "`![optional caption that appears below the figure](figure url){alt='alt text for accessibility purposes'}`"
+msgstr ""
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:94
+#, markdown-text
+msgid "![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}"
+msgstr ""
+
+#. type: Title ##
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:95
+#, markdown-text, no-wrap
+msgid "Math"
+msgstr ""
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:99
+#, markdown-text
+msgid "One of our episodes contains $\\LaTeX$ equations when describing how to create dynamic reports with {knitr}, so we now use mathjax to describe this:"
+msgstr ""
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:101
+#, markdown-text
+msgid "`$\\alpha = \\dfrac{1}{(1 - \\beta)^2}$` becomes: $\\alpha = \\dfrac{1}{(1 - \\beta)^2}$"
+msgstr ""
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:103
+#, markdown-text
+msgid "Cool, right?"
+msgstr ""
+
+#. type: Bullet: '
+#. type: - '
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:104
+#, markdown-text
+msgid "Use `.md` files for episodes when you want static content"
+msgstr ""
+
+#. type: Bullet: '- '
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:104
+#, markdown-text
+msgid "Use `.Rmd` files for episodes when you need to generate output"
+msgstr ""
+
+#. type: Bullet: '- '
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:104
+#, markdown-text
+msgid "Run `sandpaper::check_lesson()` to identify any issues with your lesson"
+msgstr ""
+
+#. type: Fenced div block (keypoints )
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:104
+#, no-wrap
+msgid ""
+"- Run `sandpaper::build_lesson()` to preview your lesson locally\n"
+"\n"
+msgstr ""
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/episodes/introduction.Rmd:113
+#, markdown-text
+msgid "[r-markdown]: https://rmarkdown.rstudio.com/"
+msgstr ""

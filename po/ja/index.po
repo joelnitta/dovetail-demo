@@ -1,0 +1,35 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-05-15 02:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: site
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/index.md:1
+#, no-wrap
+msgid "sandpaper::sandpaper_site"
+msgstr ""
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/index.md:6
+#, markdown-text
+msgid "This is a new lesson built with [The Carpentries Workbench][workbench]."
+msgstr ""
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/index.md:9
+#, markdown-text
+msgid "[workbench]: https://carpentries.github.io/sandpaper-docs"
+msgstr ""

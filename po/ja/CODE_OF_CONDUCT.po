@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-05-15 02:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/CODE_OF_CONDUCT.md:1
+#, no-wrap
+msgid "Contributor Code of Conduct"
+msgstr ""
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/CODE_OF_CONDUCT.md:7
+#, markdown-text
+msgid "As contributors and maintainers of this project, we pledge to follow the [The Carpentries Code of Conduct][coc]."
+msgstr ""
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/CODE_OF_CONDUCT.md:10
+#, markdown-text
+msgid "Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by following our [reporting guidelines][coc-reporting]."
+msgstr ""
+
+#. type: Plain text
+#: /babelwhale/21240f01428f90bd08afb1470637f4d0/Users/joelnitta/repos/dovetail-demo/CODE_OF_CONDUCT.md:13
+#, markdown-text
+msgid "[coc-reporting]: https://docs.carpentries.org/topic_folders/policies/incident-reporting.html [coc]: https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html"
+msgstr ""
