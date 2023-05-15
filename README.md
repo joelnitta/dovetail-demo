@@ -10,16 +10,16 @@ This is the repository for the [Carpentries demo lesson](https://carpentries.git
 devtools::install_github("joelnitta/dovetail")
 ```
 
-Also, note that `dovetail` relies on external software ([mdpo](https://github.com/mquinson/po4a)) bundled in a [Docker image](https://hub.docker.com/r/joelnitta/po4a), 
+Also, note that `dovetail` relies on external software ([po4a](https://github.com/mquinson/po4a)) bundled in a [Docker image](https://hub.docker.com/r/joelnitta/po4a), 
 and therefore requires Docker to be installed and running.
 
 ## Translating a lesson
 
-First, create the lesson by [copying the lesson template](https://carpentries.github.io/sandpaper-docs/introduction.html#super-quickstart-copy-a-template-from-github).
+To translate a lesson, start R with the lesson folder as your working directory.
 
-This example uses the [R Markdown Lesson Template](https://github.com/carpentries/workbench-template-rmd/generate).
+For demonstration purposes, you can clone this lesson and use that.
 
-Once you have done that, start R with the lesson folder as your working directory.
+Or, if you want to start from scratch you could create a lesson by [copying the lesson template](https://carpentries.github.io/sandpaper-docs/introduction.html#super-quickstart-copy-a-template-from-github). This example uses the [R Markdown Lesson Template](https://github.com/carpentries/workbench-template-rmd/generate).
 
 The code below demonstrates translation into Japanese (language code "ja"):
 
