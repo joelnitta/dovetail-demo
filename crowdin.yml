@@ -1,0 +1,3 @@
+files:
+  - source: episodes/*.Rmd
+    translation: '%original_path%/%original_file_name%'
