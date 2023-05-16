@@ -1,27 +1,27 @@
 ---
-title: "Using RMarkdown"
+title: "RMarkdownの使い方"
 teaching: 10
 exercises: 2
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using R Markdown and `{sandpaper}`?
+- R Markdown と `{sandpaper} `を使ってレッスンを書くにはどうすればいいですか？
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
 - 新しいレッスンテンプレートにおいてマークダウンの使用方法を説明する
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- コード、図、ネストされたチャレンジブロックの使い方を説明すること
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Introduction
+## はじめに
 
-これはThe Carpenties Workbenchによって作成されたレッスンです。 It is written in
-[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.txt) for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output. 
+これはThe Carpenties Workbenchによって作成されたレッスンです。 計算を含まない文章には[Pandoc風マークダウン](https://pandoc.org/MANUAL.txt)を使い、
+コードの出力を含む文書には[R Markdown](r-markdown)を
+使っています。 
 Please refer to the [Introduction to The Carpentries 
 Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
 
